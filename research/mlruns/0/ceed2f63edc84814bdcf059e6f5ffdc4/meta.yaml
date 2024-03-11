@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/git/Chest-Disease-Classification-from-Chest-CT-Scan-Image/research/mlruns/0/ceed2f63edc84814bdcf059e6f5ffdc4/artifacts
+end_time: 1710163198012
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ceed2f63edc84814bdcf059e6f5ffdc4
+run_name: delightful-fox-374
+run_uuid: ceed2f63edc84814bdcf059e6f5ffdc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710163183353
+status: 3
+tags: []
+user_id: mayan
