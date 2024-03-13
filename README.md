@@ -61,3 +61,13 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
+
+
+MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/MLFLowExperimentDemo.mlflow \export MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/MLFLowExperimentDemo.mlflow
+MLFLOW_TRACKING_USERNAME=mayankchugh-learning \
+MLFLOW_TRACKING_PASSWORD=6e159232d9211a02a015f21fa7645986dfa6caa1 \
+python script.py
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/MLFLowExperimentDemo.mlflow
+export MLFLOW_TRACKING_USERNAME=mayankchugh-learning
+export MLFLOW_TRACKING_PASSWORD=6e159232d9211a02a015f21fa7645986dfa6caa1
