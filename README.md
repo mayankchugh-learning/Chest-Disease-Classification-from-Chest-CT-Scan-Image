@@ -23,6 +23,10 @@ tensorflow installation installation on macOS
 https://developer.apple.com/metal/tensorflow-plugin/
 
 ```
+
+[Data link] (https://drive.google.com/file/d/1RE-2BwQGjQdUao9F8pvGEbZe2wZHFQVQ/view?usp=sharing)
+
+
 ## Workflows
 1. Update config.yaml
 2. Update params.yaml
