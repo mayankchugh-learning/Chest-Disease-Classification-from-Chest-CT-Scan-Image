@@ -19,7 +19,7 @@ Stay tuned for more groundbreaking advancements in deep learning and its applica
 # Chest-Disease-Classification-from-Chest-CT-Scan-Image
 
 ```bash
-tensorflow installation installation on macOS
+[tensorflow installation installation on macOS] 
 https://developer.apple.com/metal/tensorflow-plugin/
 
 ```
