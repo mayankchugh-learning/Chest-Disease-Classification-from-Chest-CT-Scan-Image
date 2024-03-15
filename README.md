@@ -74,6 +74,9 @@ MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/Chest-Disease-Class
 MLFLOW_TRACKING_USERNAME=mayankchugh-learning \
 MLFLOW_TRACKING_PASSWORD=6e159232d9211a02a015f21fa7645986dfa6caa1 \
 
+export MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/Chest-Disease-Classification-from-Chest-CT-Scan-Image.mlflow
+export MLFLOW_TRACKING_USERNAME=mayankchugh-learning
+export MLFLOW_TRACKING_PASSWORD=6e159232d9211a02a015f21fa7645986dfa6caa1
 ```
 
 
