@@ -72,11 +72,12 @@ python main.py
 
 MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/Chest-Disease-Classification-from-Chest-CT-Scan-Image.mlflow \
 MLFLOW_TRACKING_USERNAME=mayankchugh-learning \
-MLFLOW_TRACKING_PASSWORD=6e159232d9211a02a015f21fa7645986dfa6caa1 \
+MLFLOW_TRACKING_PASSWORD=##
 
 export MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/Chest-Disease-Classification-from-Chest-CT-Scan-Image.mlflow
 export MLFLOW_TRACKING_USERNAME=mayankchugh-learning
-export MLFLOW_TRACKING_PASSWORD=6e159232d9211a02a015f21fa7645986dfa6caa1
+llm("what is yolo?")
+MLFLOW_TRACKING_PASSWORD= 
 ```
 
 
@@ -86,10 +87,10 @@ export MLFLOW_TRACKING_PASSWORD=6e159232d9211a02a015f21fa7645986dfa6caa1
 
 MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/MLFLowExperimentDemo.mlflow \export MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/MLFLowExperimentDemo.mlflow
 MLFLOW_TRACKING_USERNAME=mayankchugh-learning \
-MLFLOW_TRACKING_PASSWORD=6e159232d9211a02a015f21fa7645986dfa6caa1 \
+MLFLOW_TRACKING_PASSWORD= \
 python script.py
 
 export MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/MLFLowExperimentDemo.mlflow
 export MLFLOW_TRACKING_USERNAME=mayankchugh-learning
-export MLFLOW_TRACKING_PASSWORD=6e159232d9211a02a015f21fa7645986dfa6caa1
+export MLFLOW_TRACKING_PASSWORD=
 ```
