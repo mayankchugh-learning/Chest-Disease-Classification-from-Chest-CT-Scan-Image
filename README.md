@@ -26,6 +26,7 @@ https://developer.apple.com/metal/tensorflow-plugin/
 
 [Data link] (https://drive.google.com/file/d/1RE-2BwQGjQdUao9F8pvGEbZe2wZHFQVQ/view?usp=sharing)
 
+[Dataset Link] (https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images)
 
 ## Workflows
 1. Update config.yaml
@@ -94,3 +95,4 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/MLFLowExperi
 export MLFLOW_TRACKING_USERNAME=mayankchugh-learning
 export MLFLOW_TRACKING_PASSWORD=
 ```
+
