@@ -67,6 +67,20 @@ python main.py
 ```
 
 
+```bash
+#chest-Disease-Classification-from-Chest-CT-Scan-Image.mlflow
+
+MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/Chest-Disease-Classification-from-Chest-CT-Scan-Image.mlflow \
+MLFLOW_TRACKING_USERNAME=mayankchugh-learning \
+MLFLOW_TRACKING_PASSWORD=6e159232d9211a02a015f21fa7645986dfa6caa1 \
+
+```
+
+
+
+```bash
+#Experiment Demo
+
 MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/MLFLowExperimentDemo.mlflow \export MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/MLFLowExperimentDemo.mlflow
 MLFLOW_TRACKING_USERNAME=mayankchugh-learning \
 MLFLOW_TRACKING_PASSWORD=6e159232d9211a02a015f21fa7645986dfa6caa1 \
@@ -75,3 +89,4 @@ python script.py
 export MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/MLFLowExperimentDemo.mlflow
 export MLFLOW_TRACKING_USERNAME=mayankchugh-learning
 export MLFLOW_TRACKING_PASSWORD=6e159232d9211a02a015f21fa7645986dfa6caa1
+```
