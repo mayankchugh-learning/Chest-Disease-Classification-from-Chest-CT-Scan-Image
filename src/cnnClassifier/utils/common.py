@@ -9,7 +9,7 @@ from box import ConfigBox
 from pathlib import Path
 from typing import Any
 import base64
-
+import shutil
 
 
 @ensure_annotations
@@ -135,3 +135,15 @@ def decodeImage(imgstring, fileName):
 def encodeImageIntoBase64(croppedImagePath):
     with open(croppedImagePath, "rb") as f:
         return base64.b64encode(f.read())
+    
+
+def copy_file(source_path, destination_path):
+    try:
+        shutil.copy2(source_path, destination_path)
+        print("File copied successfully.")
+    except FileNotFoundError:
+        print("Source file not found.")
+    except PermissionError:
+        print("Permission denied.")
+    except Exception as e:
+        print("An error occurred:", str(e))

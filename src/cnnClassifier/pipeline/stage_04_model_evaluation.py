@@ -18,8 +18,7 @@ class EvaluationPipeline:
         evaluation.evaluation()
         evaluation.save_score()
         evaluation.log_into_mlflow()
-
-
+        evaluation.copy_file()
 
 
 if __name__ == '__main__':
