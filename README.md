@@ -97,4 +97,8 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/mayankchugh-learning/MLFLowExperi
 export MLFLOW_TRACKING_USERNAME=mayankchugh-learning
 export MLFLOW_TRACKING_PASSWORD=
 ```
+### DVC cmd
 
+1. dvc init
+2. dvc repro
+3. dvc dag
