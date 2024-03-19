@@ -28,7 +28,11 @@ https://developer.apple.com/metal/tensorflow-plugin/
 
 [Dataset Link] (https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images)
 
+[Youtube link added my me] (https://youtu.be/4wdKIKt9HH4)
+
 [Youtube link for Cuda by Krish naik] (https://www.youtube.com/watch?v=StH5YNrY0mE)
+
+
 
 ## Workflows
 1. Update config.yaml
