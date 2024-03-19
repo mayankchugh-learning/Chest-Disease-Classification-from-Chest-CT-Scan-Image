@@ -1,0 +1,56 @@
+pipline {
+    agaent any
+    envirnoment {
+        ECR_REPOSITORY = credentials('ECR_REPOSITORY')
+        AWS_ACCOUNT_ID = credentials('AWS_ACCOUNT_ID')
+        AWS_ACCESS_KEY = credentials('AWS_ACCESS_KEY')
+        AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
+    }
+
+    stages {
+        stage('Continues Integration'){
+            steps {
+                script {
+                    echo "Linting repository"
+                    echo "Running unit tests"
+                }
+            }
+        }
+
+        stage('Login to ECR') {
+            steps{
+                script {
+                    sh 'aws ecr get -login-password --region us-east-1 | docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.us-east-1.amazonaws.com' 
+                }
+            }
+        }
+
+        stage('Build Image'){
+            steps{
+                script {
+                    sh 'docker push ${ECR_REPOSITORY}:lastest'
+                }
+            }
+        }
+
+        stage('Push Image') {
+            steps {
+                script {
+                    sh 'docker push ${ECR_REPOSITORY}:latest'
+                }
+            }
+        }
+
+        satge('Continues Deployment') {
+            steps {
+                sshagent "ssh -o StrictHostKeyChecking=no l ubuntu <EC2 IP> 'cd /home/ubuntu/ && wget <docker-compose url> && export IMAGE_NAME = $(ECR_REPOSITORY):latest && aws ecr get -login-password --region us-east-1 | docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.us-east-1.amazonaws.com && docker composeup -d}'"
+            }
+        }
+    }
+}
+
+post {
+    alwasy {
+        sh 'docker system prune -f'
+    }
+}
