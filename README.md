@@ -70,6 +70,11 @@ pip install -r requirements.txt
 ```
 
 ```bash
+# to execute application
+python app.py
+```
+
+```bash
 python main.py
 ```
 
