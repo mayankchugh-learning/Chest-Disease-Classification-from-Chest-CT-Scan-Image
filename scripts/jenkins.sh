@@ -16,7 +16,7 @@ https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
 
 sudo apt-get update
 sudo apt-get install fontconfig openjdk-17-jre
-sudo apt-get install jenkins
+sudo apt-get install jenkins -y
   
 java --version
 
@@ -50,12 +50,11 @@ sudo usermod -a -G docker jenkins
 
 aws configure
 
+## Now setup elastic IP on AWS & associate it with jenkins-machine
 
 ## Reboot EC2 and check jenkins status - it should be restarted
 
 sudo systemctl status jenkins
-
-## Now setup elastic IP on AWS & associate it with jenkins-machine
 
 ## open browser and paste public ip of EC2 with port 8080 (you may need to add this port 8080 in security group)
 
