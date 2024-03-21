@@ -116,9 +116,10 @@ export MLFLOW_TRACKING_PASSWORD=
 
 I am to announce the successful deployment of our latest deep learning project deployment on AWS Cloud! 🚀🌐
 
-I have also created a YouTube video showcasing the project and its functionalities. Watch it here: [YouTube video link1](https://youtu.be/VKRxq0-pYCw) [YouTube video link2] (https://youtu.be/4wdKIKt9HH4)
+I have also created a YouTube video showcasing the project and its functionalities. Watch it here: [YouTube video link1](https://youtu.be/VKRxq0-pYCw) 
+[YouTube video link2](https://youtu.be/4wdKIKt9HH4)
 
-[LinkedIn Profile] (https://www.linkedin.com/in/mchugh77/)
+[LinkedIn Profile](https://www.linkedin.com/in/mchugh77/)
 
 Project Overview:
 I have developed a state-of-the-art system for classifying Chest Diseases from Chest CT Scan Images using deep learning. This solution leverages cutting-edge technologies and tools to provide accurate and efficient diagnoses, aiding in the early detection and treatment of chest diseases.
